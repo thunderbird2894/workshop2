@@ -1,0 +1,59 @@
+@import "reset";
+@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+@import url('https://fonts.googleapis.com/css?family=Lora|Montserrat|Raleway');
+@import "variables";
+
+.contenedor{
+	max-width: 960px;
+	margin: auto;
+}
+
+.logo{
+	text-align: center;
+	padding: 20px;
+}
+
+nav{
+	overflow: auto;
+
+	.social{
+		float: right;
+	}
+
+	.menu{
+		float: left;
+	}
+	ul{
+		li{
+			display: inline-block;
+		}
+	}
+}
+
+.presentacion{
+	display: flex;
+
+	article{
+		flex: 1;
+		position: relative;
+		img{
+			max-width: 100%;
+		}
+		div{
+			position: absolute;
+			bottom: 0px;
+			background: rgba(0, 0, 0, 0.5);
+			width: 100%;
+			color: white;
+
+			p{
+				display: inline-block;
+			}
+			span{
+				text-transform: uppercase;
+				display: inline-block;
+				background: #ecca43;
+			}
+		}
+	}
+}
