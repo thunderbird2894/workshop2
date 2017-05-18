@@ -1,0 +1,13 @@
+$fuentetitulo: "Raleway", sans-serif;
+$fuentecategoria: "Montserrat", sans-serif;
+$fuentetexto: "Lora", serif;
+
+.categoria2{
+	text-transform: uppercase;
+				display: inline-block;
+				background: #ecca43;
+				font-family: $fuentecategoria;
+				font-size: 12px;
+				padding: 3px;
+				border-radius: 4px;
+} 
